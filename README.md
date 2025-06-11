@@ -5,7 +5,7 @@ This project replicates the look and feel of the VS Code editor interface, inclu
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the deployed project](https://your-deployment-link-here)
+👉 [Click here to view the deployed project](https://vscode-clone-pi.vercel.app/)
 
 ## 🚀 Features
 
@@ -21,7 +21,7 @@ This project replicates the look and feel of the VS Code editor interface, inclu
 
 ## 📸 Screenshots
 
-![VS Code Clone Screenshot](screenshot.png)  
+![VS Code Clone Screenshot](/images/Screenshot1.png)  
 _Replace this image with a real screenshot from your project_
 
 ## 📁 Folder Structure
