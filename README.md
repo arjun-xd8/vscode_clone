@@ -21,16 +21,9 @@ This project replicates the look and feel of the VS Code editor interface, inclu
 
 ## 📸 Screenshots
 
-![VS Code Clone Screenshot](/images/Screenshot1.png)  
-_Replace this image with a real screenshot from your project_
+![VS Code Clone Screenshot](/images/Screenshot1.png)
 
-## 📁 Folder Structure
-
-vscode-clone/
-├── index.html
-├── style.css
-├── images/
-│ └── icons, images, fonts, etc.
+<pre> ## 📁 Folder Structure <code> vscode-clone/ ├── index.html ├── style.css └── images/ └── icons, images, fonts, etc. </code> </pre>
 
 ## 🧠 Learning Outcome
 
