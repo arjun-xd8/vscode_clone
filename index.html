@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Studio Code-Code Editing. Redefined</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+<!-- Nav-bar start -->
+    <nav class="navbar">
+      <div class="logo-section">
+        <img class="logo" src="https://code.visualstudio.com/favicon.ico"/>
+        <h1 class="logo-text">Visual Studio Code</h1>
+      </div>
+      <div class="nav-li">
+        <li class="nav-li-item">
+            <a href="#" class="nav-li-a-item">Docs</a>
+        </li>
+        <li class="nav-li-item">
+            <a href="#" class="nav-li-a-item">Updates</a>
+        </li>
+        <li class="nav-li-item">
+            <a href="#" class="nav-li-a-item">Blog</a>
+        </li>
+        <li class="nav-li-item">
+            <a href="#" class="nav-li-a-item">API</a>
+        </li>
+        <li class="nav-li-item">
+            <a href="#" class="nav-li-a-item">Extension</a>
+        </li>
+        <li class="nav-li-item">
+            <a href="#" class="nav-li-a-item">FAQ</a>
+        </li>
+        <li class="nav-li-item">
+            <a href="#" class="nav-li-a-item">Github Copilot</a>
+        </li>
+      </div>
+      <div class="theme-container">
+        <div>
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/theme-dark.svg" width="20px " height="20px" class="theme-switcher" id="theme-switcher" />
+        </div>
+        <div class="search-condatiner">
+          <div class="img-cont">
+            <div class="search-img-container">
+              <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/search.svg" class="search-img" />
+            </div>
+            <input class="search-input" placeholder=" Search Docs" type="search" />
+          </div>
+          <button class="download-btn" type="button">Download</button>
+        </div>
+      </div>
+    </nav>
+<!-- Nav-bar end -->
+
+    <!-- update-banner start -->
+    <section class="update-banner-container">
+      <div class="update-banner-content">
+        <p class="update-banner-text">Try
+          <a class="update-banner-link" href="#">agent mode</a>
+          in VS Code!
+        </p>
+      </div>
+      <div class="update-banner-cancel-btn">
+        <button class="cancel-btn" type="button" title="Dismiss this update">
+          X
+        </button>
+      </div>
+    </section>
+    <!-- update-banner end -->
+
+    <!-- hero-section start -->
+        <!-- main header start -->
+    <div style="margin-left: 20px; margin-right: 20px">
+      <div class="hero-section">
+        <h1 class="hero-heading1">Your code editor.</h1>
+        <h1 class="hero-heading2">Redefined with AI.</h1>
+
+        <div class="hero-btn-container">
+          <button class="hero-download-btn" type="button">
+            Download for Windows
+          </button>
+          <button class="git-btn" type="button">Try agent mode</button>
+        </div>
+        <div class="hero-img-container">
+          <img
+            src="https://visual-studio-code-landing-page.vercel.app/images/home-screenshot-copilot-light.png"
+            class="hero-image" alt="hero-image"
+          />
+        </div>
+        <!-- main header end -->
+
+        <!-- feature section start -->
+        <section class="features-section">
+            <div class="feature-card1">
+                <h2>Any model for any team</h2>
+                    <p>Use AI models like Claude Sonnet out of the box, or bring your own key to access models from Azure, Anthropic, Google, Ollama, OpenAI, and OpenRouter.</p>
+                    <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/model-selector.png" alt="Model Selector" class="feature-image">
+            </div>
+
+            <div class="feature-card2">
+                <h2>An expert on your codebase</h2>
+                <p>Your codebase is indexed locally and remotely (on GitHub) to understand what's relevant, enabling fast, context-aware interactions.</p>
+                <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/context-selector.png" alt="Context Selector" class="feature-image">
+            </div>
+
+            <div class="feature-card3">
+                <h2>AI that works the way your team does</h2>
+                <p>Personalize interactions using custom instructions and reusable prompt files tailored to your workflows, tools, and projects.</p>
+                <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/custom-instruction.png" alt="Custom Instructions" class="feature-image">
+            </div>
+        </section>
+        <!-- feature section end -->
+
+        <!-- ai banner section start-->
+        <section class="ai-banner">
+            <div class="ai-banner-text">
+                <h2>Use AI features in VS Code for free</h2>
+            </div>
+            <div class="ai-banner-cta">
+                <p>No trial. No credit card required. Just your GitHub account.</p>
+                <button class="try-btn">Try free</button>
+            </div>
+        </section>
+        <!-- ai banner section end -->
+
+        <!-- agent mode start -->
+        <div class="agent-mode-section">
+          <div class="agent-mode-details">
+            <h1 class="agent-mode-heading">Agent mode</h1>
+            <p class="agent-mode-text">
+              Tackle complex, multi-step tasks. Agent mode reads your codebase, suggests edits across files, runs terminal commands, and responds to compile or test failures — all in a loop until the job is done. Further refine agent mode to fit your team's workflows with VS Code extensions and Model Context Protocol (MCP) servers.   
+            </p>
+            <a class="a-agent-mode-text" href="#"
+              >Build with agent mode</a
+            >
+          </div>
+          <div>
+            <img
+              class="agent-mode-section-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/agent-mode.png"
+            />
+          </div>
+        </div>
+         <!-- agent mode end -->
+        
+        <!-- next-edit start -->
+        <div class="next-edit-section">
+          <div class="next-edit-details">
+            <h1 class="next-edit-heading">Next edit suggestions</h1>
+            <p class="next-edit-text">
+              VS Code predicts your next move as you code. Use the Tab key to accept AI-powered suggestions right in your editor. It intelligently recommends what to change — and where — based on the edits you're already making.   
+            </p>
+            <a class="a-next-edit-text" href="#"
+              >Code with AI-powered suggestions</a
+            >
+          </div>
+          <div>
+            <img
+              class="next-edit-section-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/next-edit.png"
+            />
+          </div>
+        </div>
+         <!-- next-edit end -->
+
+      </div>
+    </div>
+       
+    <!-- hero-section end -->
+
+    <div class="p-language-container">
+        <!-- language start -->
+      <div class="lang-desc">
+        <h1 style="font-size: 30px">Code in any language</h1>
+        <p>
+          VS Code supports almost every major programming language. Several ship
+          in the box, like JavaScript, TypeScript, CSS, and HTML, but extensions
+          for others can be found in the VS Code Marketplace.
+        </p>
+      </div>
+      <div class="language-detail-contailer">
+        <div class="language-cont-1">
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-js.png"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-cs.png"
+            />
+            <p>C#</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-java.png"
+            />
+            <p>Java</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-markdown.png"
+            />
+            <p>Markdown</p>
+          </div>
+        </div>
+        <div class="language-cont-2">
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-ts.png"
+            />
+            <p>Typescript</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-cpp.png"
+            />
+            <p>C++</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-json.png"
+            />
+            <p>JSON</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-powershell.png"
+            />
+            <p>Powershell</p>
+          </div>
+        </div>
+        <div class="language-cont-3">
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-python.png"
+            />
+            <p>Python</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-html.png"
+            />
+            <p>HTML</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-php.png"
+            />
+            <p>PHP</p>
+          </div>
+          <div class="language-img-text-cont">
+            <img
+              class="language-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/language-yaml.png"
+            />
+            <p>YAML</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- language end -->
+
+    <!-- extension start -->
+    <div class="extensions-container">
+      <div class="extensions-desc">
+        <h1>Code with extensions</h1>
+        <p>
+          Customize VS Code with AI-powered functionality from extensions and Model Context Protocol servers to use in Chat. Or, 
+        <a href="#"> build your own extension</a> to power your team's unique scenarios.
+        </p>
+      </div>
+      <div class="extensions-details">
+        <div class="extensions-holder">
+          <div class="extensions">
+            <img
+              class="extensions-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/python-extension.png"
+            />
+            <div>
+              <h3>Python</h3>
+              <p>Adds rich language support for Python</p>
+            </div>
+          </div>
+          <div class="extensions">
+            <img
+              class="extensions-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/stripe-extension.png"
+            />
+            <div>
+              <h3>Stripe</h3>
+              <p>Build, test, and use Stripe inside your editor</p>
+            </div>
+          </div>
+          <div class="extensions">
+            <img class="extensions-img" src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/c-extension.png" />
+            <div>
+              <h3>C/C++</h3>
+              <p>Adds rich language support for C/C++</p>
+            </div>
+          </div>
+        </div>
+        <div class="extensions-holder">
+          <div class="extensions">
+            <img
+              class="extensions-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/jupyter-extension.png"
+            />
+            <div>
+              <h3>Jupyter</h3>
+              <p>Language support for Jupyter Notebooks</p>
+            </div>
+          </div>
+          <div class="extensions">
+            <img
+              class="extensions-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/gitlens-extension.png"
+            />
+            <div>
+              <h3>GitLens</h3>
+              <p>Supercharge your Git expirence</p>
+            </div>
+          </div>
+          <div class="extensions">
+            <img
+              class="extensions-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/cs-dev-kit-extension.png"
+            />
+            <div>
+              <h3>C# Dev Kit</h3>
+              <p>Powerfull tools for your C# environment</p>
+            </div>
+          </div>
+        </div>
+        <div class="extensions-holder">
+          <div class="extensions">
+            <img
+              class="extensions-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/mongodb-extension.png"
+            />
+            <div>
+              <h3>Mongo DB</h3>
+              <p>Extension for the @MongoDb agent</p>
+            </div>
+          </div>
+          <div class="extensions">
+            <img
+              class="extensions-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/azure.png"
+            />
+            <div>
+              <h3>GitHub Copilot for Azure</h3>
+              <p>Streamline the process of developing for Azure</p>
+            </div>
+          </div>
+          <div class="extensions">
+            <img
+              class="extensions-img"
+              src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/remote-extension.png"
+            />
+            <div>
+              <h3>Remote Development</h3>
+              <p>Open folders in a container on a remote machine</p>
+            </div>
+          </div>
+        </div>
+        <div class="extension-footer">
+            View 60k+ extensions in the <a href="#">Extension Marketplace</a>
+        </div>
+      </div>
+      <!-- extension end -->
+    </div>
+
+    <!-- fully-customizable start -->
+    <div class="code-git-section">
+        <div class="code-git-details">
+            <h1 class="code-heading">Fully customizable</h1>
+            <p class="code-text">
+            Customize your VS Code UI and layout so that it fits your coding style.
+            </p>
+            <p class="code-text">
+            <a href="#">Color themes</a> let you modify the colors in VS Code's user interface to suit your preferences and work environment.
+            </p>
+            <p class="code-text">
+            <a href="#">Settings Sync</a> enables you to share your user settings across your VS Code instances with the Settings Sync feature.
+            </p>
+            <p class="code-text">
+            <a href="#">Profiles</a> let you create sets of customizations and quickly switch between them or share them with others.
+            </p>
+        </div>
+
+        <div class="code-git-image">
+            <img class="code-in-git-section"src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/fully-customizable.png" alt="Fully Customizable Screenshot"/>
+        </div>
+    </div>
+
+    <!-- fully-customizable end -->
+
+    <!-- code-anywhere start -->
+    <div class="code-git-section">
+        <div class="code-git-details">
+            <h1 class="code-heading">Code anywhere</h1>
+            <p class="code-text">
+             Code wherever you're most productive, whether you're connected to the cloud, a remote repository, or in the browser with VS Code for the Web (vscode.dev).
+            </p>
+            <p class="code-text">
+            <a href="#">Built-in Source Control</a> empowers you with Git support out-of-the-box. Many other source control providers are available through extensions.
+            </p>
+            <p class="code-text">
+            <a href="#">GitHub Codespaces</a> provides cloud-powered development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request.
+            </p>
+        </div>
+
+        <div class="code-git-image">
+            <img class="code-in-git-section" src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/code-anywhere.png" alt="Code Anywhere Screenshot"/>
+        </div>
+    </div>
+    <!-- code-anywhere end -->
+
+    <!-- rich-features start -->
+    <div class="rich-features-card-container">
+      <div class="rich-features-desc">
+        <h1>Code with rich features</h1>
+        <p>
+          There's a lot more to an editor. Whether it's using built-in features
+          or rich extensions, there's something for everyone.
+        </p>
+      </div>
+      <div class="grid-container">
+        <div class="rich-features-card">
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/codicon-terminal.svg" />
+          <h1>Integrated terminal</h1>
+          <p>
+            Use your favorite shell whether it's zsh, pwsh, or git bash, all
+            inside the editor.
+          </p>
+        </div>
+        <div class="rich-features-card">
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/codicon-debug.svg" />
+          <h1>Run code</h1>
+          <p>Run and debug your code without leaving your editor.</p>
+        </div>
+        <div class="rich-features-card">
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/codicon-version-control.svg" />
+          <h1>Version control</h1>
+          <p>
+            Build-in support for git and many other source control providers.
+          </p>
+        </div>
+        <div class="rich-features-card">
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/codicon-build-tasks.svg" />
+          <h1>Build tasks</h1>
+          <p>Run tools and analyze their results from within VS Code.</p>
+        </div>
+        <div class="rich-features-card">
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/codicon-local-history.svg" />
+          <h1>Local history</h1>
+          <p>
+            Never lose your changes with automatically tracked local history.
+          </p>
+        </div>
+        <div class="rich-features-card">
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/codicon-themes.svg" />
+          <h1>Themes</h1>
+          <p>
+            Your themeis the extension of your personality. Add some flair to
+            your editor and add your touch.
+          </p>
+        </div>
+        <div class="rich-features-card">
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/codicon-accessibility.svg" />
+          <h1>Accessibility</h1>
+          <p>
+            Optimized expirence for screen readers, high contrast themes, and
+            keyboard-only navigation.
+          </p>
+        </div>
+        <div class="rich-features-card">
+          <img src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/codicon-web.svg" />
+          <h1>Web support</h1>
+          <p>
+            Whether you are on your phone, tablet, or desktop, you can access
+            your code from anywhere.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- rich-features end -->
+
+    <!-- footer start -->
+    <div class="social-container">
+      <div>
+        <img class="social-img" src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/x-icon.svg" alt="twitter" />
+        <img
+          class="social-img"
+          src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/github-icon.svg"
+          alt="github"
+        />
+        <img
+          class="social-img"
+          src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/youtube-icon.svg"
+          alt="youtube"
+        />
+      </div>
+      <div>
+        <img
+          class="social-img"
+          src="/Week 1 - Orientation, HTML, CSS, Basic JS/vscode_clone/images/microsoft.svg"
+          alt="microsoft"
+        />
+      </div>
+    </div>
+    <div class="links-container">
+      <span>Support</span>
+      <span>Privacy</span>
+      <span>Terms of Use</span>
+      <span>License</span>
+    </div>
+    <!-- footer end -->
+
+  </body>
+</html>
